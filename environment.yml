@@ -1,0 +1,27 @@
+name: ds-general
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.11
+  - jupyterlab
+  # Basic data analysis
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  # Modelling
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - catboost
+  - shap
+  # Testing and code quality
+  - pytest
+  - pylint
+  - black
+  # Other tools
+  - pip
+  - requests
+
