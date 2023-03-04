@@ -1,2 +1,3 @@
 # sharmu-sandbox
-A place for general Python shenanigans.
+A place for general Python shenanigans. Serious folk look elsewhere.
+
