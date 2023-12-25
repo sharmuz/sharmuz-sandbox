@@ -3,25 +3,34 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python>=3.10
+  # Core
+  - python = 3.11.*
   - jupyterlab
-  # Basic data analysis
+  # Data analysis
   - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  # Modelling
   - scipy
+  - pandas
+  - polars
+  - pyarrow
+  # Modelling
   - scikit-learn
   - statsmodels
+  - category_encoders
   - xgboost
   - catboost
   - shap
+  # Visualisation
+  - matplotlib
+  - seaborn
+  - tabulate
   # Testing and code quality
   - pytest
-  - pylint
   - black
-  # Other tools
+  - ruff
+  - isort
+  # Tools and utilities
   - pip
   - requests
-
+  - keyring
+  - python-dotenv
+  - nbdime
