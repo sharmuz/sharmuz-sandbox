@@ -1,8 +1,4 @@
-import os
-import sys
-
-sys.path.insert(1, os.path.join(os.path.dirname(__file__), '../src'))
-from simple_fun import say_hello
+from src.simple_fun import say_hello
 
 
 class TestSimpleFun:
