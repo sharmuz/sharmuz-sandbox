@@ -8,10 +8,10 @@ class TestSimpleFun:
 
     def test_friend_set_to_stranger_if_param_not_set(self):
         # SETUP
-        expected = '\nHello there, stranger!\n'
+        expected = "\nHello there, stranger!\n"
 
         # CALL
         result = say_hello()
 
         # ASSERT
-        assert(result == expected)
+        assert result == expected

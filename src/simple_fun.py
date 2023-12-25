@@ -2,7 +2,8 @@
 Some trivial Python functions for testing purposes.
 """
 
-def say_hello(friend: str='stranger') -> str:
+
+def say_hello(friend: str = "stranger") -> str:
     """
     Prints a greeting to specified friend.
 
@@ -12,12 +13,12 @@ def say_hello(friend: str='stranger') -> str:
     Returns:
         str: Greeting to friend.
     """
-    return f'\nHello there, {friend}!\n'
+    return f"\nHello there, {friend}!\n"
 
 
 def main():
     print(say_hello())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
